@@ -108,7 +108,8 @@ export default function Header(props) {
         {name: 'Education', link: '/education', activeIndex: 3, icon: <SchoolIcon/>}
     ]
 
-    const currentIndex = routes.find(route => window.location.pathname === route.link).activeIndex;
+    const currentRoute = routes.find(route => window.location.pathname === route.link);
+    const currentIndex = currentRoute? currentRoute.activeIndex : -1
     if (!isNaN(currentIndex) && currentIndex !== value) {
         setValue(currentIndex);
     }
