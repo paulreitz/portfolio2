@@ -8,7 +8,12 @@ export default [
             'portfolio3.jpg'
         ],
         description: 'A place for me to showcase my work',
-        why: 'This is both for practice and as a single location to place relevant information about my work history.'
+        why: 'This is both for practice and as a single location to place relevant information about my work history.',
+        github: [
+            {
+                link: 'https://github.com/paulreitz/portfolio2'
+            }
+        ]
     },
     {
         title: 'Color Theme Generator',
