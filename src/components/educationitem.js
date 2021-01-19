@@ -72,10 +72,10 @@ export default (props) => {
             </Grid>
             <Grid item xs={12}>
                 <Grid container>
-                    <Grid item xs={12} md={6}>
+                    <Grid item xs={12} sm={6}>
                         <Typography variant="body1" className={classes.degree}>{props.degree}:</Typography>
                     </Grid>
-                    <Grid item xs={12} md={6} className={classes.rightText}>
+                    <Grid item xs={12} sm={6} className={classes.rightText}>
                         <Typography variant="body2">{props.name}</Typography>
                     </Grid>
                 </Grid>

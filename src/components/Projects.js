@@ -31,7 +31,7 @@ export default function Projects(props) {
                 </Grid>
                 {
                     projectData.map(item => (
-                        <Grid item xs={12} sm={6} md={4}>
+                        <Grid item xs={12} md={4}>
                             <ProjectItem {...item} />
                         </Grid>
                     ))
