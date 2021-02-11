@@ -1,5 +1,22 @@
 export default [
     {
+        title: 'Basic Chat App',
+        thumbnail: 'chat.jpg',
+        images: [
+            'chat1.jpg',
+            'chat2.jpg',
+            'chat3.jpg',
+            'chat4.jpg'
+        ],
+        description: '',
+        why: 'This is primarily to practice and delve deeper into the concepts of user authentication, user profiles management, and socket programming',
+        github: [
+            {
+                link: 'https://github.com/paulreitz/chat'
+            }
+        ]
+    },
+    {
         title: 'Portfolio',
         thumbnail: 'portfolio.jpg',
         images: [
