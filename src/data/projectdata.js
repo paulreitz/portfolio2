@@ -1,5 +1,20 @@
 export default [
     {
+        title: 'Todo App (Electron/React)',
+        thumbnail: 'todo.jpg',
+        images: [
+            'todo1.jpg',
+            'todo2.jpg'
+        ],
+        description: '',
+        why: 'Just a very simple app to explore working with React, Electron and SQLite together. This is to work out how to get these three technologies to work in a single app.',
+        github: [
+            {
+                link: 'https://github.com/paulreitz/todo-electron'
+            }
+        ]
+    },
+    {
         title: 'Basic Chat App',
         thumbnail: 'chat.jpg',
         images: [
