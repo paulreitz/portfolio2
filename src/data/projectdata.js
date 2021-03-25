@@ -94,5 +94,21 @@ export default [
                 link: 'https://github.com/paulreitz/GW2CraftUtil_Client'
             }
         ]
+    },
+    {
+        title: 'Problems and Solutions',
+        thumbnail: 'solutions.jpg',
+        images: [
+            'solutions1.jpg'
+        ],
+        description:'',
+        why: `Often, when working on a project, I'll encounter a problem that has no ready solution. The usual sites either claim there is no solution or 
+        provide solutions that either don't work or are not good solutions at all. I created this repository to store solutions I've found for such situations.`,
+        github: [
+            {
+                label: 'View on Github',
+                link: 'https://github.com/paulreitz/solutions'
+            }
+        ]
     }
 ]
