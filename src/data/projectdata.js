@@ -1,5 +1,20 @@
 export default [
     {
+        title: 'Breakout',
+        link: 'https://pfr-breakout.herokuapp.com/',
+        thumbnail: 'breakout.jpg',
+        images: [
+            'breakout1.jpg'
+        ],
+        description: '',
+        why: 'A simple game to dive into Phaser and Webpack, and learn more about both. Also to jump back into making games, as it\'s been a while since I\'ve done any game development.',
+        github: [
+            {
+                link: 'https://github.com/paulreitz/breakout'
+            }
+        ]
+    },
+    {
         title: 'Todo App (Electron/React)',
         thumbnail: 'todo.jpg',
         images: [
